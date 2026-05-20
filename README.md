@@ -1,3 +1,3 @@
 # PythonPO
 
-grace unmehopa en diandra ravestijn
+Grace Unmehopa en Diandra Ravestijn
