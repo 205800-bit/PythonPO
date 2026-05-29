@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Spiderman villan Quiz
 
 """"De 10 vragen die in de quiz gaan komen"""
@@ -79,5 +79,18 @@ antwoorden = [
         "Snelheid en overweldigende energie"
     ]
 ]
+def vragen_quiz(vragen, antwoordopties):
+    teller = 0
+    antwoord = []
+
+    while teller < len(vragen):
+        print("----------------------------------")
+        print(vragen[teller])
+        print(f"A) {antwoordopties[teller][0]}")
+        print(f"B) {antwoordopties[teller][1]}")
+        print(f"C) {antwoordopties[teller][2]}")
+        print(f"D) {antwoordopties[teller][3]}")
+
+        answer = input("Kies A/B/C/D: ").lower()
 
 
