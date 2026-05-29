@@ -92,7 +92,8 @@ def vragen_quiz(vragen, antwoordopties):
         print(f"D) {antwoordopties[teller][3]}")
 
         answer = input("Kies A/B/C/D: ").lower()
-if answer in ["a", "b", "c", "d"]:
+
+        if answer in ["a", "b", "c", "d"]:
             antwoord.append(answer)
             teller += 1
         else:
@@ -109,6 +110,7 @@ def puntentelling(uitslag_lijst):
     Venom = 0
     Electro = 0
    
+
 
     for punt in uitslag_lijst:
         if punt == "a":
@@ -149,4 +151,21 @@ def puntentelling(uitslag_lijst):
         main()
     elif terug == 2:
         print("Okee, tot ziens")
+        
 
+
+def main():
+    i = 0
+    while i == 0:
+        print("-------------------------------")
+        print("heyy Welkom bij de spider man villain quiz")
+        print("Vandaag ga je er achter komen welke spider man villain het beste bij jou past")
+        klaar_voor = int(input("Als je er klaar voor bent typ 1 in, veel succes!!\n"))
+        if klaar_voor == 1:
+            i += 1
+            vragen_quiz(vragen, antwoorden)
+        else:
+            i += 0
+
+if __name__ == '__main__':
+    main()
