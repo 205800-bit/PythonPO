@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Spiderman villan Quiz
 
 """"De 10 vragen die in de quiz gaan komen"""
@@ -15,3 +16,6 @@ vragen = [
     "Wat vind je het belangrijkst in een gevecht?"
 ]
 
+=======
+#Spiderman Quiz
+>>>>>>> c293ca1a3942b604bafdbc17e92a25f5e0de3326
